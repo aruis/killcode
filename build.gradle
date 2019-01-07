@@ -60,7 +60,7 @@ dependencies {
     compile("io.vertx:vertx-lang-groovy:$vertx_version") {
         exclude group: "org.codehaus.groovy", module: "groovy-all"
     }
-    compile "io.vertx:vertx-zookeeper:$vertx_version"
+    compile "io.vertx:vertx-hazelcast:$vertx_version"
 
     compile group: 'net.sourceforge.tess4j', name: 'tess4j', version: '4.3.0'
 
