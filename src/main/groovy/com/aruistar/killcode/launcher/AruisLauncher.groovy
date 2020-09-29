@@ -1,5 +1,6 @@
 package com.aruistar.killcode.launcher
 
+
 import io.vertx.core.Launcher
 import io.vertx.core.VertxOptions
 import org.slf4j.bridge.SLF4JBridgeHandler
@@ -16,6 +17,7 @@ class AruisLauncher extends Launcher {
 
     static void main(String[] args) {
         new AruisLauncher().dispatch(args)
+//        Vertx.vertx().deployVerticle(new KillCodeVerticle())
     }
 
     @Override
